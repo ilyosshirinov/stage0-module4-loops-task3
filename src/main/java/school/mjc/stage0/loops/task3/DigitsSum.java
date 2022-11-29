@@ -13,6 +13,6 @@ public class DigitsSum {
 
     public static void main(String[] args) {
         DigitsSum digitsSum = new DigitsSum();
-        digitsSum.printDigitsSum(12345);
+        digitsSum.printDigitsSum(22);
     }
 }

@@ -14,6 +14,6 @@ public class FibonacciSeries {
 
     public static void main(String[] args) {
         FibonacciSeries fibonacciSeries=new FibonacciSeries();
-        fibonacciSeries.printFibonacci(10);
+        fibonacciSeries.printFibonacci(2);
     }
 }

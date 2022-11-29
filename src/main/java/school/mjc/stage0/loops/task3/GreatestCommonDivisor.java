@@ -7,11 +7,11 @@ public class GreatestCommonDivisor {
             if (first % i == 0 && second % i == 0)
                 gcd = i;
         }
-        System.out.println("GCD of " + first + " and " + second + " is " + gcd);
+        System.out.println(gcd);
     }
 
     public static void main(String[] args) {
         GreatestCommonDivisor divisor = new GreatestCommonDivisor();
-        divisor.printGCD(81, 153);
+        divisor.printGCD(30, 25);
     }
 }
